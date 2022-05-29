@@ -6,31 +6,86 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsividade-->
         <meta name="description" content="“A vida não é perfeita, mas seu cabelo pode ser”."> <!--Descrição que aparece embaixo do nome do site no google(SEO)-->
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <title>Joãozinho DuCort - Barbearia</title>
     </head>
 
     <body>
         <!--Cabeçalho-->
         <header>
-            <img src="img/joazinho_ducort_logo1.png" alt="Logo Joãozinho DuCort"  height="70" width="70">
-            <nav> <!--Menu de navegação(âncora)-->
-                <a>Sobre</a> <!--O sobre vai levar também para os tópicos de missão e visão-->
-                <a>Cortes</a>
-                <a>Produtos</a>
-                <a>Depoimentos</a>
-                <a>Localização</a> <!--Inclui também as redes sociais-->
+            <nav class="navbar bg-dark"> <!--Menu de navegação(âncora)-->
+                <div class="container-fluid">
+                    <img src="img/joazinho_ducort_logo1.png" alt="Logo Joãozinho DuCort" class="rounded-circle" height="70" width="70">
+                    <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Cortes</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Localização</a>
+                        </li>
+                      </ul>
+                </div>
             </nav>
         </header>
 
+
         <!--Conteúdo principal da página-->
         <main>
+            <!--Carrossel imagens salão-->
+            <section> 
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src=" https://source.unsplash.com/1400x500/?barber shop" class="d-block w-100" alt="Imagem Barbearia 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src=" https://source.unsplash.com/1400x500/?haircut" class="d-block w-100" alt="Imagem Barbearia 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src=" https://source.unsplash.com/1400x500/?beard" class="d-block w-100" alt="Imagem Barbearia 3">
+                      </div>
+                    </div>
+                </div>
+            </section>
 
+            <!--Seção de sobre, visão e missão-->
+            <section> 
+
+            </section>
+
+            <!--Cortes-->
+            <section>
+
+            </section>
+
+            <!--Produtos vendidos-->
+            <section>
+
+            </section>
+
+            <!--Localização-->
+            <section>
+
+            </section>
         </main>
+
 
         <!--Rodapé-->
         <footer>
 
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
     </body>
 
 
